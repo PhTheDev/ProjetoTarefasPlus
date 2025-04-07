@@ -37,6 +37,17 @@ yarn install
 ```
 
 Renomeie o .env-exemple para .env-local e substitua os dados necessarios:
+```bash
+GOOGLE_CLIENT_ID=your_google_client_id_here
+
+GOOGLE_CLIENT_SECRET=your_google_client_secret_here
+
+NEXTAUTH_URL=http://localhost:3000
+
+JWT_SECRET=your_jwt_secret_here
+
+NEXT_PUBLIC_URL=http://localhost:3000
+```
 
 Inicie o servidor de desenvolvimento:
 
