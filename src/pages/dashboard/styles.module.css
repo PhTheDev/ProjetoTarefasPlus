@@ -1,0 +1,201 @@
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #121214;
+    color: #e1e1e6;
+}
+
+.main {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.content {
+    background-color: #202024;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin-bottom: 32px;
+}
+
+.contentForm {
+    padding: 24px;
+}
+
+.title {
+    color: #e1e1e6;
+    font-size: 1.5rem;
+    margin-bottom: 16px;
+    font-weight: 600;
+}
+
+.checkboxArea {
+    display: flex;
+    align-items: center;
+    margin: 16px 0;
+}
+
+.checkbox {
+    width: 18px;
+    height: 18px;
+    accent-color: #3183ff;
+    cursor: pointer;
+}
+
+.checkboxArea label {
+    margin-left: 8px;
+    color: #e1e1e6;
+    cursor: pointer;
+    user-select: none;
+}
+
+.button {
+    width: 100%;
+    border: 0;
+    border-radius: 6px;
+    color: #fff;
+    background-color: #3183ff;
+    padding: 14px 0;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.button:hover {
+    background-color: #2a6fd6;
+    transform: translateY(-1px);
+}
+
+.button:disabled {
+    background-color: #7a7a7a;
+    cursor: not-allowed;
+    transform: none;
+}
+
+.taskContainer {
+    width: 100%;
+}
+
+.taskContainer h1 {
+    font-size: 1.8rem;
+    margin-bottom: 24px;
+    color: #e1e1e6;
+    text-align: left;
+}
+
+.task {
+    background-color: #202024;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 16px;
+    border: 1px solid #323238;
+    transition: all 0.2s ease;
+}
+
+.task:hover {
+    border-color: #505059;
+    transform: translateY(-2px);
+}
+
+.tagContainer {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.tag {
+    background-color: #3183ff;
+    padding: 4px 8px;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.shareButton {
+    background: transparent;
+    border: 0;
+    margin-left: 8px;
+    cursor: pointer;
+    color: #a8a8b3;
+    transition: color 0.2s ease;
+}
+
+.shareButton:hover {
+    color: #3183ff;
+}
+
+.taskContent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.taskContent p {
+    white-space: pre-wrap;
+    line-height: 1.6;
+    color: #e1e1e6;
+    margin-right: 16px;
+    flex: 1;
+}
+
+.taskContent a {
+    color: #3183ff;
+    text-decoration: none;
+}
+
+.taskContent a:hover {
+    text-decoration: underline;
+}
+
+.trashButton {
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+    color: #a8a8b3;
+    transition: color 0.2s ease;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.trashButton:hover {
+    background-color: rgba(234, 49, 64, 0.1);
+    color: #ea3140;
+}
+
+.emptyTasks {
+    text-align: center;
+    color: #a8a8b3;
+    margin-top: 40px;
+}
+
+.loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+@media (max-width: 768px) {
+    .main {
+        padding: 16px;
+    }
+
+    .contentForm {
+        padding: 16px;
+    }
+
+    .taskContent {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .taskContent p {
+        margin-bottom: 16px;
+        margin-right: 0;
+    }
+}
