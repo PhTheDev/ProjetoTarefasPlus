@@ -17,8 +17,7 @@ O intuito deste projeto é colocar em prática os conhecimentos adquiridos ao lo
 
 - [Next.js](https://nextjs.org/)
 - [React](https://reactjs.org/)
-- [TypeScript](https://www.typescriptlang.org/) (caso tenha usado)
-- [Tailwind CSS](https://tailwindcss.com/) (ou outro, se aplicável)
+- [TypeScript](https://www.typescriptlang.org/)
 
 ## 💻 Como rodar o projeto
 
